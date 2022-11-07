@@ -1,0 +1,15 @@
+# Request Successful
+200 => OK
+
+301 => Permanent Redirect
+302 => Temp
+303 => See other
+
+# USER ERROR
+401 => Not Authorized
+403 => Forbidden - Not Authenticated
+404 => Page not found
+422 => Unprocessable entity (trying to create something and its failing)
+
+# DEV'S FAULT
+500 => Server Error
